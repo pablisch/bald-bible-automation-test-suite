@@ -23,6 +23,11 @@ dependencies {
 
     // This dependency is used by the application.
     implementation libs.guava
+
+    // Integrate Selenium
+    testImplementation 'org.seleniumhq.selenium:selenium-java:4.16.1'
+    testImplementation 'org.seleniumhq.selenium:selenium-http-jdk-client:4.13.0'
+    testImplementation 'io.github.bonigarcia:webdrivermanager:5.6.1'
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
